@@ -24,7 +24,7 @@ En su servidor, el servidor sshd ya debe estar en ejecución. Si no es así, es 
 
 El proceso que debe iniciar un servidor ssh depende de la distribución de Linux que esté utilizando.
 
-En Ubuntu, para iniciar el servidor ssh, debe escribir lo siguiente:
+En Debian, para iniciar el servidor ssh, debe escribir lo siguiente:
 
 ```bash
 $ sudo systemctl enable ssh --now
